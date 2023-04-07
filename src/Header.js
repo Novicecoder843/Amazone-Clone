@@ -29,11 +29,12 @@ function Header() {
                 <span className='hdr_optn1'>Your</span>
                 <span className='hdr_optn2'>Prime</span>
             </div>
-
-            <div className='hdr_AddToCart'>
-                <ShoppingCartIcon/>
-                <span className='hdr_optn2 hdr_cartCount'>0</span>
-            </div>
+            <Link to='/checkout'> 
+                <div className='hdr_AddToCart'>
+                    <ShoppingCartIcon/>
+                    <span className='hdr_optn2 hdr_cartCount'>0</span>
+                </div>
+            </Link>
         </div>
     </div>
   )
